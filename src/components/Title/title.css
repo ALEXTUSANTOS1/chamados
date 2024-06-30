@@ -1,0 +1,35 @@
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1em 0;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    padding: 0.8em;
+}
+
+.title span{
+    margin-left: 0.8em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.botao-sair{
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    width: 50px;
+}
+
+.botao-sair button{
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    border: none;
+    font-weight: bold;
+}
+
+.botao-sair button:hover{
+    background-color: blue;
+    color: #f8f8f8;
+}
